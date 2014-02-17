@@ -1,0 +1,12 @@
+/*li:nth-child(5n+2){
+	color:red;
+}*/
+
+/*li:nth-last-child(5n+2){
+	color:red;
+}*/
+
+div.divp > p::before{
+	content:"<i>tester</i> ";
+	font-weight: bold;
+}
